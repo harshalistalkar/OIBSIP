@@ -1,0 +1,548 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 375px;
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+/* All header styling  here*/
+/* Major styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+/* Minor styling */
+.top-menu-list,
+.top-invite-link {
+    display: none;
+}
+
+/* All main styling here */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url(./images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.reason p,
+.landing p,
+.articles small,
+.articles p {
+    color: hsl(233, 8%, 62%);
+}
+
+/* Major styling */
+
+/* Minor styling */
+
+
+/* All Next generation digital banking styling here */
+/* Major styling */
+.landing {
+    width: 90%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.mockups {
+    background: url(./images/image-mockups.png) no-repeat bottom;
+    background-size: cover;
+    height: 305px;
+    width: 350px;
+}
+
+.landing-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Minor styling */
+h1 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.landing-text {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.top-invite-anchor {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    display: inline-block;
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.landing a {
+    text-decoration: none;
+    color: white;
+}
+
+/* All Why choose EasyBank styling here */
+/* Major styling */
+
+.reason {
+    background-color: hsl(220, 16%, 96%);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 5% 30px 5%;
+}
+
+
+/* Minor styling */
+.why-choose-a>h2 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 30px 15px 30px;
+}
+
+.why-choose-a>p {
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.8;
+    padding: 0 10px 45px 10px;
+    font-size: 15px;
+}
+
+.why-choose-b img {
+    padding-bottom: 20px;
+}
+
+.why-choose-b h3 {
+    font-family: 'Public Sans', sans-serif;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.why-choose-b p {
+    font-family: 'Public Sans', sans-serif;
+    line-height: 1.8;
+    padding: 0 0 30px 0;
+    font-size: 15px;
+}
+
+/* the end of why choose us */
+
+
+
+/* All Latest articles styling here */
+/* Major styling */
+.articles {
+    width: 90%;
+    padding: 90px 5% 60px 5%;
+}
+
+.articles>h2 {
+    font-family: 'Public Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.articles-div>div {
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+
+/* Minor styling */
+.articles-div a {
+    text-decoration: none;
+    color: black;
+}
+
+.image-container1 {
+    background: url(./images/image-currency.jpg) no-repeat center;
+    background-size: cover;
+    height: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image-container2 {
+    background: url(./images/image-restaurant.jpg) no-repeat center;
+    background-size: cover;
+    height: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image-container3 {
+    background: url(./images/image-plane.jpg) no-repeat center;
+    background-size: cover;
+    height: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image-container4 {
+    background: url(./images/image-confetti.jpg) no-repeat center;
+    background-size: cover;
+    height: 210px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.image-container1,
+.image-container2,
+.image-container3,
+.image-container4 {
+    margin-bottom: 30px;
+}
+
+.articles-div small {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 500;
+    padding: 0 25px 0 25px;
+    font-size: 11px;
+}
+
+.articles-div h3 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 500;
+    padding: 10px 25px 0 25px;
+    font-size: 15px;
+}
+
+.articles-div p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 10px 25px 15px 25px;
+}
+
+/* All footer styling here */
+/* Major styling */
+.footer {
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.logo-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.footer-bottom-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Minor styling */
+.social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.bottom-menu {
+    list-style-type: none;
+    color: hsl(0, 0%, 98%);
+    text-align: center;
+    line-height: 2;
+}
+
+.bottom-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-invite {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    display: inline-block;
+    text-align: center;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.copyright-text {
+    color: hsl(233, 8%, 62%);
+}
+
+.footer-invite>a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+
+    .main {
+        background-image: url(./images/bg-intro-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: 700px -300px;
+    }
+
+    /* All media query header styling  here*/
+    /* Major styling */
+    .header {
+        padding: 15px 10%;
+        align-items: center;
+    }
+
+    /* Minor styling */
+    .top-menu-list {
+        display: flex;
+        gap: 30px;
+        list-style-type: none;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+    }
+
+    .top-menu-list a {
+        text-decoration: none;
+        color: hsl(233, 8%, 62%);
+    }
+
+    .top-invite-link {
+        display: inline-block;
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        text-align: center;
+        padding: 12px 30px;
+        border-radius: 30px;
+    }
+
+    .top-invite-link>a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    /* All media query Next generation digital banking styling here */
+    /* Major styling */
+    .landing {
+        width: 100%;
+        padding: 0 0 0 10%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .mockups {
+        order: 1;
+        background: url(./images/image-mockups.png) no-repeat bottom;
+        background-size: cover;
+        height: 700px;
+        width: 980px;
+        z-index: 1;
+        background-position-x: 115px;
+    }
+
+    .landing-contents {
+        padding-bottom: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    /* Minor styling */
+    .landing-text {
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        text-align: left;
+        line-height: 1.8;
+        margin-bottom: 30px;
+        display: inline-block;
+        width: 60%;
+    }
+
+    h1 {
+        display: inline-block;
+        width: 50%;
+        text-align: left;
+    }
+
+
+    /* All media query Why choose EasyBank styling here */
+    /* Major styling */
+    .reason {
+        background-color: hsl(220, 16%, 96%);
+        width: 100%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 10% 60px 10%;
+        position: relative;
+        margin-top: -140px;
+    }
+
+    .why-choose-b {
+        display: flex;
+        gap: 50px;
+    }
+
+    /* Minor styling */
+    .why-choose-b-divs {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .why-choose-a>p {
+        width: 50%;
+    }
+
+    .why-choose-a>h2 {
+        margin-left: 0;
+    }
+
+    .why-choose-a>p {
+        padding-left: 0;
+    }
+
+    /* All media query Latest articles styling here */
+    /* Major styling */
+    .articles {
+        width: 100%;
+        padding: 90px 10% 80px 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .articles-div {
+        display: flex;
+        gap: 30px;
+    }
+
+    /* Minor styling */
+
+
+    /* All media query footer styling here */
+    /* Major styling */
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 10%;
+    }
+
+    .logo-icons {
+        align-items: start;
+        gap: 50px;
+        margin-bottom: 0;
+    }
+
+    .footer-bottom-text {
+        gap: 30px;
+        margin-top: 0;
+    }
+
+    /* Minor styling */
+
+    .bottom-menu {
+        display: grid;
+        grid-template-columns: 220px 220px;
+        grid-template-rows: repeat(3, 35px);
+        text-align: left;
+    }
+
+    .list-one {
+        order: 1;
+    }
+
+    .list-three {
+        order: 5;
+    }
+
+    .list-five {
+        order: 4;
+    }
+
+    .list-two {
+        order: 3;
+    }
+
+    .list-four {
+        order: 2;
+    }
+
+    .list-six {
+        order: 6;
+    }
+
+    /* pseudo styling */
+    .top-invite-anchor:hover,
+    .top-invite-link:hover,
+    .footer-invite:hover {
+        opacity: 50%;
+    }
+
+    .top-menu-list a:hover {
+        padding: 24px 0;
+        border-bottom: 4px hsl(136, 65%, 51%) solid;
+        color: black;
+    }
+
+    .articles-div a:hover {
+        color: hsl(136, 65%, 51%);
+    }
+
+    .bottom-menu a:hover {
+        color: hsl(136, 65%, 51%);
+    }
+
+    .social-media-icons path:hover {
+        fill: hsl(136, 65%, 51%);
+    }
+
+}
